@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/custom.css" >
+	<meta name="viewport" content="width=device-width, intial-scale=1">
 	<style>
 		body > nav {
 			margin: 50 !important;
@@ -50,7 +51,7 @@
 			font-style: oblique;
 		}
 		
-		@media screen and (max-width: 1000px){   
+	/*	@media screen and (max-width: 1000px){   
 
 			.box{
 				text-align: left;
@@ -64,7 +65,7 @@
 			nav ul li {
 				display: inline-block;
 				width: 120px;
-				font-size: 0px;
+				font-size: 20px;
 				border-bottom: none;
 			}  
 
@@ -94,7 +95,7 @@
 				<a class="navbar-brand" href="#contact">CONTACT</a>
 				<a class="navbar-brand" href="#event">MUSIC EVENT</a>
 				<a class="navbar-brand" target="_blank" href="https://www.google.ie/maps/dir//-16.4876435,-151.7391944/@-16.5020252,-151.7711663,13z">LOCATION</a>
-				<a class="dropdown"     href="#contact"></a>
+				<a class="navbar-brand" href="#moda">FOOD&DRINK MENU's</a>
 			</div>
 
 		</div>
@@ -154,6 +155,7 @@
 
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
+	<section id="moda">	
 		<div class="jumbotron">
 			<div class="container">
 				<h1>TasteBudOrchestra</h1>
@@ -162,13 +164,13 @@
 
 				<div class="modal-box">
 					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+					<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
 						Lunch
 					</button>
-					<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModa2">
+					<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModa2">
 						Dinner
 					</button>
-					<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModa3">
+					<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModa3">
 						Drinks
 					</button>
 
@@ -348,56 +350,8 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="container">
-			<!-- Example row of columns -->
-			<div class="row">
-				<div class="col-md-4">
-					<h2>Music Event</h2>
-					<p>This Week Latin Jazz 
-					</p>
-					<p><a class="btn btn-info"  href="#event" role="button">View details &raquo;</a></p>
-
-				</div>
-				<div class="col-md-4">
-					<h2>Contacts</h2>
-					<p> </p>
-					<p><a class="btn btn-success" href="#contact" role="button">View details &raquo;</a></p>
-				</div>
-				<div class="col-md-4">
-					<h2>Location</h2>
-					<p>Unnamed Road, Faanui, French Polynesia, BoraBora</p>
-					<p><a class="btn btn-info" target="_blink" href="https://www.google.ie/maps/dir//-16.4876435,-151.7391944/@-16.5020252,-151.7711663,13z" role="button">Map &raquo;</a></p>
-				</div>
-			</div>
-
-			<hr>
-			<section id="event" class="bg-light-gray">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<h2 class="section-heading">This week</h2>
-							<h3 class="section-subheading text-muted">PONCHO SANCHES AND HIS LATIN JAZZ BAND</h3>
-							<h4 class="section-subheading text-responsive"><a <a target="_blank" href="https://www.youtube.com/watch?v=JKTfhpyO-Mg" >Click on image to listen to some of the bands work</a></h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 event-item">
-							<a target="_blank" href="https://www.youtube.com/watch?v=JKTfhpyO-Mg" class="event-link" data-toggle="modal">
-								<div class="event-hover">
-									<div class="event-hover-content">
-										<img  id="bandPic" src="http://cdn.ticketfly.com/i/00/01/77/15/89-og.png" img-responsive" alt="">
-									</div>
-								</div>
-								
-							</a>
-							<div class="event-caption">
-								<h4>Music starts every day from 5pm till late</h4>
-							</div>
-						</div>
-
-					</div>
-					<section id="contact">
+	</section>
+	 <section id="contact">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-12 text-center">
@@ -439,7 +393,57 @@
 								</div>
 							</div>
 						</div>
-					</section>
+					</section>	
+
+		<div class="container">
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Music Event</h2>
+					<p>This Week Latin Jazz 
+					</p>
+					<p><a class="btn btn-info"  href="#event" role="button">View details &raquo;</a></p>
+
+				</div>
+				<!-- <div class="col-md-4">
+					<h2>Contacts</h2>
+					<p> </p>
+					<p><a class="btn btn-success" href="#contact" role="button">View details &raquo;</a></p>
+				</div> -->
+				<div class="col-md-4">
+					<h2>Location</h2>
+					<p>Unnamed Road, Faanui, French Polynesia, BoraBora</p>
+					<p><a class="btn btn-info" target="_blink" href="https://www.google.ie/maps/dir//-16.4876435,-151.7391944/@-16.5020252,-151.7711663,13z" role="button">Map &raquo;</a></p>
+				</div>
+			</div>
+
+			<hr>
+			<section id="event" class="bg-light-gray">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="section-heading">This week</h2>
+							<h3 class="section-subheading text-muted">PONCHO SANCHES AND HIS LATIN JAZZ BAND</h3>
+							<h4 class="section-subheading text-responsive"><a <a target="_blank" href="https://www.youtube.com/watch?v=JKTfhpyO-Mg" >Click on image to listen to some of the bands work</a></h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 event-item">
+							<a target="_blank" href="https://www.youtube.com/watch?v=JKTfhpyO-Mg" class="event-link" data-toggle="modal">
+								<div class="event-hover">
+									<div class="event-hover-content">
+										<img  id="bandPic" src="http://cdn.ticketfly.com/i/00/01/77/15/89-og.png" img-responsive" alt="">
+									</div>
+								</div>
+								
+							</a>
+							<div class="event-caption">
+								<h4>Music starts every day from 5pm till late</h4>
+							</div>
+						</div>
+
+					</div>
+					
 
 					<footer>
 					<p><h6>&copy; 2016 Olygang, Inc.</h6></p>
